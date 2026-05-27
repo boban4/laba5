@@ -34,7 +34,7 @@ jobs:
       - name: Capture coverage
         run: |
           lcov --capture --directory . --base-directory . --output-file coverage.info --ignore-errors mismatch
-          lcov --remove coverage.info '/usr/*' '*/third-party/*' '*/tests/*' --output-file coverage.info --ignore-errors mismatch
+          lcov --remove coverage.info '/usr/*' '*/googletest/*' '*/tests/*' --output-file coverage.info --ignore-errors mismatch
 
       - name: Upload to Coveralls
         uses: coverallsapp/github-action@v2
