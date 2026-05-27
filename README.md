@@ -148,6 +148,8 @@ $ gist REPORT.md
     * Покрытие кода должно составлять 100%.
 3. Настройте сборочную процедуру на **TravisCI**.
 4. Настройте [Coveralls.io](https://coveralls.io/).
+   <img width="1457" height="526" alt="image" src="https://github.com/user-attachments/assets/38aa510a-7906-42b8-8a1a-3b23626ea44e" />
+
 
 ## Links
 
